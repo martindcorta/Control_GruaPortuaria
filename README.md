@@ -1,2 +1,4 @@
 # Control_GruaPortuaria
 CONTROL SEMI-AUTOMÁTICO COORDINADO DE GRÚA PORTUARIA DE MUELLE TIPO PÓRTICO
+Se desarrolló el modelado y simulación del control semiautomático de una grúa portuaria. En primer lugar, se desarrolló el modelado del sistema físico, a continuación los controladores de movimiento, llamados controladores nivel 2. Luego se diseñó el autómata nivel 1, que se encarga de dar las directivas a los controladores de movimiento. Y finalmente se desarrolló un autómata nivel 0, controlador de seguridad.
+Para la simulación conceptual “Model-in-the-Loop” se utilizó el programa (Matlab/Simulink/Stateflow) mientras que para la implementación y simulación “Software-in-the-Loop” se empleó el programa CODESYS. Se lograron los resultados esperados, pudiendo cumplir con trayectorias planificadas en tiempos y velocidades adecuadas.
